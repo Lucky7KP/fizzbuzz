@@ -10,7 +10,7 @@ $(document).ready(function(){
 			$("#main").append("<p>Buzz</p>");
 		}
 		else {
-	    	$("#main").append(counter);
+	    	$("#main").append(counter + "</br >");
 		}
 }
 });
